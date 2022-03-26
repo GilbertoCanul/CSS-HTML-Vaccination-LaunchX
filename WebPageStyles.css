@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito';
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+:root {
+    --MainBlueLight: rgb(52, 84, 210);
+    --MainBlueDark: rgb(31, 62, 114);
+    --MainGray: rgb(113, 127, 150);
+  }
+
+.headerContainer{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coverContainer{
+    display: flex;
+    align-items: top;
+}
+
+.logosContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.secondaryText{
+    font-size: 30px;
+    text-align: left;
+    color: var(--MainBlueDark);
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.reasonsContainer{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.preparationsContainer{
+    display: flex;
+    padding-right: 120px;
+    margin-top: 200px;
+}
+
+.prepDiv{
+    margin-left: 70px;;
+}
+
+.dropDiv{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(164, 184, 255, 0.3);
+}
+
+.coverDiv{
+    width: 100%;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.coverDiv2{
+    width: fit-content;
+}
+
+.FVText{
+    font-size: 70px;
+    text-align: left;
+    color: var(--MainBlueDark);
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.plainText{
+    font-size: 18px;
+    color: var(--MainGray);
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.reasonDiv{
+    width: fit-content;
+    margin-top: 60px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(164, 184, 255, 0.3);
+}
+
+.smallTitle{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    text-align: left;
+    color: var(--MainBlueDark);
+    font-weight: 600;
+}
+
+.title{
+    color: var(--MainBlueLight);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.HoaxButton{
+    
+    background-color: var(--MainBlueLight);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    box-shadow: none;
+    border: 0;
+    width: 150px;
+    height: 50px;
+}
+
+.sideDiv{
+    width: 50%;
+    height: 100%;
+}
+
+.benefitsDiv{
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.benefitsText{
+    font-size: 18px;
+    color: var(--MainBlueDark);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.iconImgYellow{
+    border-radius: 5px;
+    background-color: rgb(255, 252, 223);
+    width: 20px;
+    padding: 8px;
+    box-shadow: 0 6px 10px rgba(241, 236, 198, 0.7);
+}
+
+.iconImgBlue{
+    border-radius: 5px;
+    background-color: rgb(217, 225, 255);
+    width: 20px;
+    padding: 8px;
+    box-shadow: 0 6px 10px rgba(164, 184, 255, 0.7);
+}
+
+.iconImgBlueFlat{
+    border-radius: 5px;
+    background-color: rgb(217, 225, 255);
+    width: 15px;
+    height: 15px;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.floatingDiv{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(87, 98, 134, 0.5);
+    margin-top: 25px;
+}
+
+.floatingDivBig{
+    margin-top: 45%;
+    margin-left: 8%;
+    position: absolute;
+}
+
+.SubmitDiv{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.floatingTextBlue{
+    font-size: 26px;
+    color: var(--MainBlueDark);
+    font-weight: 800;
+}
+
+.floatingTextGray{
+    font-size: 24px;
+    color: var(--MainGray);
+    font-weight: 600;
+}
+
+.NormalButton{
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(114, 114, 114);
+    box-shadow: none;
+    border: 0;
+    width: 150px;
+    height: 50px;
+}
+
+.SubmitButton{
+    background-color: var(--MainBlueLight);
+    text-align: center;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 5px 10px rgb(109, 127, 194);
+    border: 0;
+    width: 150px;
+    height: 50px;
+}
+
+.nurseDiv{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
